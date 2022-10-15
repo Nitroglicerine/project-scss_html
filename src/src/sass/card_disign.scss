@@ -1,0 +1,22 @@
+
+.card-product__row {
+  position: absolute;
+    display: inline-block;
+    background-color:black;
+    height: 755px;
+    margin-top: 253px;
+  @media screen,(width:400px) {display: flex;
+    position: absolute;
+   width: 100%;}
+}
+.card-product__text {
+margin-top: 378.5px;
+vertical-align: middle;
+margin-left:-175px;   
+white-space: nowrap;
+overflow: hidden;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 76px;
+    color: #eeeeee;
+}

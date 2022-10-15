@@ -1,0 +1,29 @@
+.footer__row {
+  position: absolute;
+  display: inline-block;
+  background-color: black;
+  height: 800px;
+  width: 100%;
+  margin-top: 349px;
+  color: #fff;
+}
+.footer__text {
+    margin-top:257px;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 60px;
+  vertical-align: middle;
+  text-align: center;
+}
+.footer__links { 
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 21px;
+    
+    font-size: 11px;
+    a{color:#fff; margin: 20px; }
+    p{margin-top: 20px;}
+    
+    :hover{color: grey; transition: 0.2s ease-in;}
+}

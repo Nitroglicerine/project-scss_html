@@ -1,0 +1,26 @@
+
+.header__row {width:1140px ;
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+}
+.header__logo {font-weight: 400;
+    font-size: 20px;
+    margin-top:50px;
+    margin-left: 80px;
+    
+
+}
+.header__button {display: flex;
+    flex-wrap: wrap;
+  position: absolute;
+  right: 80px;
+    a{color: black;}
+    font-size: 12px;
+    font-weight: 400;
+    column-gap: 40px;
+     margin-top: 54px;
+     
+     :hover{color: grey; transition: 0.2s ease-in;}
+     
+}
